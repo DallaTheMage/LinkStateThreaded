@@ -1,3 +1,8 @@
+'''
+    Autore: Lorenzo Dall'Ara
+    Matricola: 0001068964
+    Versione di Python: 3.13.1
+'''
 from threaded_routing import ThreadRouter, Network
 
 if __name__ == "__main__":

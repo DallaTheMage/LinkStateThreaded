@@ -1,6 +1,11 @@
+'''
+    Autore: Lorenzo Dall'Ara
+    Matricola: 0001068964
+    Versione di Python: 3.13.1
+'''
 from threading import Thread, Condition
-from time import sleep
-import random, heapq
+import random
+import heapq
 
 class ThreadRouter(Thread):
     def __init__(self, name, network):

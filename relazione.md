@@ -2,7 +2,7 @@
 
 #### **Introduzione**
 
-Questo progetto implementa una simulazione di routing in una rete di computer usando il protocollo Link State Routing (LSR) con gestione concorrente tramite thread. Ogni router agisce come un thread separato che comunica con gli altri router per costruire e aggiornare la propria topologia di rete e la tabella di routing.
+Questo progetto implementa, utilizzando **Python 3.13.1**, una simulazione di routing in una rete usando il protocollo Link State Routing (LSR) con gestione concorrente tramite thread. Ogni router agisce come un thread separato che comunica con gli altri router per costruire e aggiornare la propria topologia di rete e la tabella di routing.
 
 Il progetto si compone di due file principali:
 
