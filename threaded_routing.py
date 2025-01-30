@@ -237,7 +237,10 @@ class TopologyManager:
             # Esplora i vicini
             actual_neighbors = actual_topology.get(current_router, {})
             for neighbor, cost in actual_neighbors.items():
-                distance = round(current_distance + cost, 5)
+                if cost is not None:
+                    distance = round(current_distance + cost, 5)
+                else:
+                    distance = float('inf')
                 # Se la nuova distanza è minore di quella già registrata
                 if distance < distances.get(neighbor, float('inf')):
                     distances[neighbor] = distance   # Aggiorna la distanza
